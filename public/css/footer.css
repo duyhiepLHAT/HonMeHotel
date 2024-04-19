@@ -1,0 +1,29 @@
+#footer-main {
+    background-color: #151B40;
+}
+
+#footer-main .btn-linkmap {
+    background-color: #151B40;
+    color: #e8952f;
+    border: 1px solid #e8952f;
+    padding: 10.5px;
+}
+
+.btn-linkmap i {
+    transition: transform 0.3s ease;
+}
+
+#footer-main .btn-linkmap:hover i {
+    transform: translateX(5px);
+}
+
+#footer-main ul li a{
+    text-decoration: none;
+    color: #ced4da;
+}
+#footer-main ul li{
+    transition: transform 0.3s ease;
+}
+#footer-main ul li:hover a{
+    color: #e8952f;
+}

@@ -1,0 +1,69 @@
+.category-main {
+    background-color: #FFFFFF;
+}
+
+
+
+.category-main .carousel {
+    width: 100%;
+
+}
+
+.category-main .carousel .carousel-item {
+    width: 100%;
+    height: 416px;
+}
+
+.category-main .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btn-room {
+    border: 1px solid #e8952f;
+    width: 200px;
+    height: 50px;
+
+
+}
+
+.btn-order-room {
+    background-color: #E8952F;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.btn-order-room:hover {
+    background-color: #eeb167;
+    color: white;
+
+}
+
+.btn-detail-room {
+    color: #E8952F;
+    background-color: white;
+    transition: 0.3s ease;
+}
+
+.btn-detail-room:hover {
+    background-color: #E8952F;
+    color: white;
+
+}
+
+.btn-group-room {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clamp-3-lines {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.modal-main{
+    max-height: 900px; 
+    /* overflow-y: auto;  */
+}
